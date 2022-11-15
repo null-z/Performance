@@ -11,23 +11,44 @@
 				<key>com.apple.dt.XCTMetric_CPU.cycles</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>636835.730600</real>
+					<real>27221.721300</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.instructions_retired</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>1582431.296800</real>
+					<real>62927.771100</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.time</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>0.201510</real>
+					<real>0.008300</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.075239</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:22:52 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>7.782400</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical_peak</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.000000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 			</dict>
 			<key>testForEach()</key>
@@ -35,23 +56,44 @@
 				<key>com.apple.dt.XCTMetric_CPU.cycles</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>684413.006200</real>
+					<real>26916.178000</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.instructions_retired</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>1685781.502800</real>
+					<real>64603.894700</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.time</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>0.218243</real>
+					<real>0.008458</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.065626</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:22:52 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>2.867200</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical_peak</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.000000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 			</dict>
 			<key>testForTupleIndex()</key>
@@ -59,23 +101,44 @@
 				<key>com.apple.dt.XCTMetric_CPU.cycles</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>1119138.107200</real>
+					<real>27299.670800</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.instructions_retired</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>2826304.682200</real>
+					<real>62990.436500</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.time</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>0.352865</real>
+					<real>0.009151</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.071956</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:22:52 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>1.228800</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical_peak</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.000000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 			</dict>
 			<key>testForTupleValue()</key>
@@ -83,23 +146,44 @@
 				<key>com.apple.dt.XCTMetric_CPU.cycles</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>1007244.559000</real>
+					<real>24775.415800</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.instructions_retired</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>2585722.425200</real>
+					<real>63784.983700</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.time</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>0.303324</real>
+					<real>0.007760</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.064397</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:22:52 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>4.096000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical_peak</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.000000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 			</dict>
 			<key>testIterating()</key>
@@ -107,23 +191,44 @@
 				<key>com.apple.dt.XCTMetric_CPU.cycles</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>647706.203400</real>
+					<real>25850.809700</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.instructions_retired</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>1599580.616200</real>
+					<real>62891.983300</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.time</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>0.195403</real>
+					<real>0.007977</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.071474</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:22:52 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.000000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical_peak</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.000000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 			</dict>
 			<key>testLoop()</key>
@@ -131,23 +236,68 @@
 				<key>com.apple.dt.XCTMetric_CPU.cycles</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>145408.759800</real>
+					<real>24638.651300</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.instructions_retired</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>355041.070200</real>
+					<real>82841.109400</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.time</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>0.044082</real>
+					<real>0.007831</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.065528</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:22:52 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.819200</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical_peak</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.000000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+			</dict>
+			<key>testRecursion()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_CPU.cycles</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>1824.794600</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 9:38:14 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_CPU.instructions_retired</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>2388.148600</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 9:38:14 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_CPU.time</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.000540</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 9:38:14 AM</string>
 				</dict>
 			</dict>
 			<key>testReduce()</key>
@@ -155,23 +305,44 @@
 				<key>com.apple.dt.XCTMetric_CPU.cycles</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>677876.043000</real>
+					<real>21397.997900</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.instructions_retired</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>1701429.437000</real>
+					<real>52801.489200</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.time</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>0.203872</real>
+					<real>0.006750</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.065303</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:22:52 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.000000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical_peak</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.000000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 			</dict>
 			<key>testRepeat()</key>
@@ -179,23 +350,44 @@
 				<key>com.apple.dt.XCTMetric_CPU.cycles</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>196970.252200</real>
+					<real>27625.361500</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.instructions_retired</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>420275.360600</real>
+					<real>83714.338000</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.time</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>0.059978</real>
+					<real>0.008373</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.072850</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:22:52 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>4.096000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical_peak</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.000000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 			</dict>
 			<key>testWhile()</key>
@@ -203,23 +395,44 @@
 				<key>com.apple.dt.XCTMetric_CPU.cycles</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>198355.933000</real>
+					<real>24206.486100</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.instructions_retired</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>425026.045400</real>
+					<real>62856.677500</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 				<key>com.apple.dt.XCTMetric_CPU.time</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>0.059694</real>
+					<real>0.007726</real>
 					<key>baselineIntegrationDisplayName</key>
-					<string>15 Nov 2022, 8:48:55 AM</string>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.065597</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:22:52 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.000000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
+				</dict>
+				<key>com.apple.dt.XCTMetric_Memory.physical_peak</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.000000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>15 Nov 2022, 10:18:48 AM</string>
 				</dict>
 			</dict>
 		</dict>

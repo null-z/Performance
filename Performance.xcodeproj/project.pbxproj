@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA09024F2923EBB000FA4B4F /* OverflowArithmeticsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09024E2923EBB000FA4B4F /* OverflowArithmeticsTest.swift */; };
+		DA0902512923ED1100FA4B4F /* MeasurementTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0902502923ED1100FA4B4F /* MeasurementTest.swift */; };
 		DA8EF92B29235E8D0035A7B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8EF92A29235E8D0035A7B4 /* AppDelegate.swift */; };
 		DA8EF92D29235E8D0035A7B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8EF92C29235E8D0035A7B4 /* ViewController.swift */; };
 		DA8EF92F29235E8E0035A7B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8EF92E29235E8E0035A7B4 /* Assets.xcassets */; };
 		DA8EF93229235E8E0035A7B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8EF93029235E8E0035A7B4 /* Main.storyboard */; };
-		DA8EF95629235F320035A7B4 /* LoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8EF95529235F320035A7B4 /* LoopTests.swift */; };
+		DA8EF95629235F320035A7B4 /* LoopTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8EF95529235F320035A7B4 /* LoopTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA09024E2923EBB000FA4B4F /* OverflowArithmeticsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverflowArithmeticsTest.swift; sourceTree = "<group>"; };
+		DA0902502923ED1100FA4B4F /* MeasurementTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementTest.swift; sourceTree = "<group>"; };
 		DA8EF92729235E8D0035A7B4 /* Performance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Performance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8EF92A29235E8D0035A7B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA8EF92C29235E8D0035A7B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,7 +36,7 @@
 		DA8EF93129235E8E0035A7B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA8EF93329235E8E0035A7B4 /* Performance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Performance.entitlements; sourceTree = "<group>"; };
 		DA8EF93829235E8F0035A7B4 /* PerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA8EF95529235F320035A7B4 /* LoopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopTests.swift; sourceTree = "<group>"; };
+		DA8EF95529235F320035A7B4 /* LoopTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +90,9 @@
 		DA8EF93B29235E8F0035A7B4 /* PerformanceTests */ = {
 			isa = PBXGroup;
 			children = (
-				DA8EF95529235F320035A7B4 /* LoopTests.swift */,
+				DA0902502923ED1100FA4B4F /* MeasurementTest.swift */,
+				DA8EF95529235F320035A7B4 /* LoopTest.swift */,
+				DA09024E2923EBB000FA4B4F /* OverflowArithmeticsTest.swift */,
 			);
 			path = PerformanceTests;
 			sourceTree = "<group>";
@@ -200,7 +206,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA8EF95629235F320035A7B4 /* LoopTests.swift in Sources */,
+				DA0902512923ED1100FA4B4F /* MeasurementTest.swift in Sources */,
+				DA8EF95629235F320035A7B4 /* LoopTest.swift in Sources */,
+				DA09024F2923EBB000FA4B4F /* OverflowArithmeticsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -117,19 +117,15 @@ class LoopTest: MeasurementTest {
         XCTAssertEqual(sum, array.count)
     }
     
-    /// this method have problem after 70k iterations
     func testRecursion() throws {
         var sum = 0
-        try XCTSkipIf(array.count > 10_000, "array count too long for use recursion")
         measurePerformance {
-            sum = recurseSum(index: 0, array: array)
+            sum = recurseSum(array: array)
         }
         XCTAssertEqual(sum, array.count)
     }
     
 }
-
-
 
 
 fileprivate func loop(count: Int, block: (_ index: Int) -> Void) {
@@ -140,11 +136,15 @@ fileprivate func loop(count: Int, block: (_ index: Int) -> Void) {
     }
 }
 
-fileprivate func recurseSum(index: Int, array: [Int]) -> Int {
-    if index == array.count {
-        return 0
-    } else {
-        return array[index] + recurseSum(index: index + 1, array: array)
+fileprivate func recurseSum(array: [Int]) -> Int {
+    func tailRecurseSum(index: Int, array: [Int], result: Int) -> Int {
+        if index == array.count {
+            return result
+        } else {
+            let result = result + array[index]
+            return tailRecurseSum(index: index + 1, array: array, result: result)
+        }
     }
+    
+    return tailRecurseSum(index: 0, array: array, result: 0)
 }
-

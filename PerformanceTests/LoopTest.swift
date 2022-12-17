@@ -9,7 +9,7 @@ import XCTest
 
 class LoopTest: MeasurementTest {
     
-    let array = Array(repeating: 1, count: 100_000_000)
+    let array = Array(repeating: 1, count: 10_000_000)
     
     func testReduce() throws {
         var sum = 0
@@ -118,11 +118,15 @@ class LoopTest: MeasurementTest {
     }
     
     func testRecursion() throws {
+        #if TEST && UNOPTIMIZED
+        throw XCTSkip("Does't optimize tail recursion")
+        #else
         var sum = 0
         measurePerformance {
             sum = recurseSum(array: array)
         }
         XCTAssertEqual(sum, array.count)
+        #endif
     }
     
 }

@@ -10,8 +10,8 @@ import XCTest
 /// abstract superclass
 class MeasurementTest: XCTestCase {
     
-    //let metrics: [XCTMetric] = [XCTClockMetric()]
-    let metrics: [XCTMetric] = [XCTClockMetric(), XCTCPUMetric(), XCTMemoryMetric()]
+    let metrics: [XCTMetric] = [XCTClockMetric()]
+    //let metrics: [XCTMetric] = [XCTClockMetric(), XCTCPUMetric(), XCTMemoryMetric()]
     let options: XCTMeasureOptions = XCTMeasureOptions()
     
     override func setUp() {

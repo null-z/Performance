@@ -10,7 +10,7 @@ import XCTest
 class OverflowArithmeticsTest: MeasurementTest {
     
     let number: Int64 = 2
-    let count: Int64 = 100_000_000
+    let count: Int64 = 10_000_000
     
     func testAddition() throws {
         var result: Int64 = 0

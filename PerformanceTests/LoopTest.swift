@@ -106,6 +106,18 @@ class LoopTest: MeasurementTest {
         XCTAssertEqual(sum, array.count)
     }
     
+    func testRecursion() throws {
+        #if TEST && UNOPTIMIZED
+        throw XCTSkip("Does't optimize tail recursion")
+        #else
+        var sum = 0
+        measurePerformance {
+            sum = recurseSum(array: array)
+        }
+        XCTAssertEqual(sum, array.count)
+        #endif
+    }
+    
     func testLoop() throws {
         var sum = 0
         measurePerformance {
@@ -117,16 +129,16 @@ class LoopTest: MeasurementTest {
         XCTAssertEqual(sum, array.count)
     }
     
-    func testRecursion() throws {
-        #if TEST && UNOPTIMIZED
-        throw XCTSkip("Does't optimize tail recursion")
-        #else
+    
+    func testLoopLICMoptimized() throws {
         var sum = 0
         measurePerformance {
-            sum = recurseSum(array: array)
+            sum = 0
+            loop(count: array.count) { index in
+                sum += 1
+            }
         }
         XCTAssertEqual(sum, array.count)
-        #endif
     }
     
 }

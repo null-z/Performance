@@ -14,6 +14,7 @@
 		DA8EF92F29235E8E0035A7B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8EF92E29235E8E0035A7B4 /* Assets.xcassets */; };
 		DA8EF93229235E8E0035A7B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8EF93029235E8E0035A7B4 /* Main.storyboard */; };
 		DA8EF95629235F320035A7B4 /* LoopTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8EF95529235F320035A7B4 /* LoopTest.swift */; };
+		DA99C22E29287DF4008F23FB /* MatrixTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA99C22D29287DF4008F23FB /* MatrixTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		DA8EF93329235E8E0035A7B4 /* Performance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Performance.entitlements; sourceTree = "<group>"; };
 		DA8EF93829235E8F0035A7B4 /* PerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8EF95529235F320035A7B4 /* LoopTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopTest.swift; sourceTree = "<group>"; };
+		DA99C22D29287DF4008F23FB /* MatrixTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				DA0902502923ED1100FA4B4F /* MeasurementTest.swift */,
 				DA8EF95529235F320035A7B4 /* LoopTest.swift */,
+				DA99C22D29287DF4008F23FB /* MatrixTest.swift */,
 				DA09024E2923EBB000FA4B4F /* OverflowArithmeticsTest.swift */,
 			);
 			path = PerformanceTests;
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA99C22E29287DF4008F23FB /* MatrixTest.swift in Sources */,
 				DA0902512923ED1100FA4B4F /* MeasurementTest.swift in Sources */,
 				DA8EF95629235F320035A7B4 /* LoopTest.swift in Sources */,
 				DA09024F2923EBB000FA4B4F /* OverflowArithmeticsTest.swift in Sources */,

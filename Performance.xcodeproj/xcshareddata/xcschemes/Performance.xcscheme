@@ -39,7 +39,16 @@
             </BuildableReference>
             <SkippedTests>
                <Test
+                  Identifier = "LoopTest">
+               </Test>
+               <Test
+                  Identifier = "MatrixTest">
+               </Test>
+               <Test
                   Identifier = "MeasurementTest">
+               </Test>
+               <Test
+                  Identifier = "OverflowArithmeticsTest">
                </Test>
             </SkippedTests>
          </TestableReference>
